@@ -12,11 +12,11 @@ const videoButtonTexts = [
 
 // 实际视频文件路径
 const videoPaths = [
-  '/video/output_223_72_scene.mp4',
-  '/video/output_223_8_scene.mp4',
-  '/video/output_223_67_scene.mp4',
-  '/video/output_223_216_scene.mp4',
-  '/video/output_223_223_scene.mp4'  
+  '/XYZCYlinder-projectpage/video/output_223_72_scene.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_8_scene.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_67_scene.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_216_scene.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_223_scene.mp4'  
 ];
 
 let selectedVideoPath = ref("");

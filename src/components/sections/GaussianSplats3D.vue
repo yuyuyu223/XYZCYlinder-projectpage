@@ -9,7 +9,7 @@ const allModels = [
   {
     id: 'model1',
     name: 'Model 5_0',
-    path: '/3dgs/5_0.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/5_0.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group2'
@@ -17,7 +17,7 @@ const allModels = [
   {
     id: 'model2',
     name: 'Model 15_0',
-    path: '/3dgs/15_0.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/15_0.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group2'
@@ -25,7 +25,7 @@ const allModels = [
   {
     id: 'model3',
     name: 'Model 35_0',
-    path: '/3dgs/35_0.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/35_0.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group2'
@@ -34,7 +34,7 @@ const allModels = [
   {
     id: 'model4',
     name: 'Model 50_0',
-    path: '/3dgs/6_20.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/6_20.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group1'
@@ -42,7 +42,7 @@ const allModels = [
   {
     id: 'model5',
     name: 'Model 75_0',
-    path: '/3dgs/0_60.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/0_60.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group1'
@@ -50,7 +50,7 @@ const allModels = [
   {
     id: 'model6',
     name: 'Model 100_0',
-    path: '/3dgs/4_40.ksplat',
+    path: '/XYZCYlinder-projectpage/3dgs/4_40.ksplat',
     scale: [0.05, 0.05, 0.05] as [number, number, number],
     cameraPosition: [0, 0, -6] as [number, number, number],
     group: 'group1'

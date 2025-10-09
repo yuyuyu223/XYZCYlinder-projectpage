@@ -7,13 +7,13 @@ const firstVideoMarginTop = ref(0)
 
 // 视频数据
 const videos = [
-  { img: '/video/x_120.png', video: '/video/output_120_scene.mp4' },
-  { img: '/video/x_150.png', video: '/video/output_150_scene.mp4' },
-  { img: '/video/x_190.png', video: '/video/output_190_scene.mp4' },
-  { img: '/video/x_280.png', video: '/video/output_280_scene.mp4' },
-  { img: '/video/x_330.png', video: '/video/output_330_scene.mp4' },
-  { img: '/video/x_360.png', video: '/video/output_360_scene.mp4' },
-  { img: '/video/x_10.png', video: '/video/output_10_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_120.png', video: '/XYZCYlinder-projectpage/video/output_120_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_150.png', video: '/XYZCYlinder-projectpage/video/output_150_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_190.png', video: '/XYZCYlinder-projectpage/video/output_190_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_280.png', video: '/XYZCYlinder-projectpage/video/output_280_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_330.png', video: '/XYZCYlinder-projectpage/video/output_330_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_360.png', video: '/XYZCYlinder-projectpage/video/output_360_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video/x_10.png', video: '/XYZCYlinder-projectpage/video/output_10_scene.mp4' },
   // { img: '/video/input_7.png', video: '/video/output_7_scene.mp4' },
   // { img: '/video/input_8.png', video: '/video/output_8_scene.mp4' },
   // { img: '/video/input_9.png', video: '/video/output_9_scene.mp4' },

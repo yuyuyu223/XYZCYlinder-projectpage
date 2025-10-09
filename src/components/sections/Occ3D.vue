@@ -7,44 +7,44 @@ const allModels = [
   {
     id: 'model1',
     name: 'Scene 1',
-    path: '/occ/output_360_0.html',
-    imagePath: '/occ/x_360_0.png',
+    path: '/XYZCYlinder-projectpage/occ/output_360_0.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_360_0.png',
     group: 'group1'
   },
   {
     id: 'model2',
     name: 'Scene 2',
-    path: '/occ/output_140_0.html',
-    imagePath: '/occ/x_140_0.png',
+    path: '/XYZCYlinder-projectpage/occ/output_140_0.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_140_0.png',
     group: 'group1'
   },
   {
     id: 'model3',
     name: 'Scene 3',
-    path: '/occ/output_320_0.html',
-    imagePath: '/occ/x_320_0.png',
+    path: '/XYZCYlinder-projectpage/occ/output_320_0.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_320_0.png',
     group: 'group1'
   },
   // 第二组模型
   {
     id: 'model4',
     name: 'Scene 4',
-    path: '/occ/output_0_0.html',
-    imagePath: '/occ/x_0_0.png',
+    path: '/XYZCYlinder-projectpage/occ/output_0_0.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_0_0.png',
     group: 'group2'
   },
   {
     id: 'model5',
     name: 'Scene 5',
-    path: '/occ/output_0_80.html',
-    imagePath: '/occ/x_0_80.png',
+    path: '/XYZCYlinder-projectpage/occ/output_0_80.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_0_80.png',
     group: 'group2'
   },
   {
     id: 'model6',
     name: 'Scene 6',
-    path: '/occ/output_0_40.html',
-    imagePath: '/occ/x_0_40.png',
+    path: '/XYZCYlinder-projectpage/occ/output_0_40.html',
+    imagePath: '/XYZCYlinder-projectpage/occ/x_0_40.png',
     group: 'group2'
   }
 ];

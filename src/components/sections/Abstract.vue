@@ -2,8 +2,8 @@
 import abstract from '../mds/abstract.mdx';
 import VuePdfEmbed from 'vue-pdf-embed';
 
-const pdfSource = '/method/tasksettings.pdf';
-const pdfSource2 = '/method/psnr.pdf';
+const pdfSource = '/XYZCYlinder-projectpage/method/tasksettings.pdf';
+const pdfSource2 = '/XYZCYlinder-projectpage/method/psnr.pdf';
 </script>
 
 <template>

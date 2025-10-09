@@ -2,7 +2,7 @@
 import { defineComponent } from 'vue'
 import { VueLatex } from 'vatex'
 import VuePdfEmbed from 'vue-pdf-embed';
-const pdfSource3 = '/method/main_pipe.pdf';
+const pdfSource3 = '/XYZCYlinder-projectpage/method/main_pipe.pdf';
 // const pdfSource4 = '/method/Xnet.pdf';
 // const pdfSource5 = '/method/Ynet.pdf';
 // const pdfSource6 = '/method/Znet.pdf';

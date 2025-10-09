@@ -7,8 +7,8 @@ const firstVideoMarginTop = ref(0)
 
 // 视频数据
 const videos = [
-  { video: '/video/output_223_72_scene.mp4' },
-  { video: '/video/output_223_8_scene.mp4' },
+  { video: '/XYZCYlinder-projectpage/video/output_223_72_scene.mp4' },
+  { video: '/XYZCYlinder-projectpage/video/output_223_8_scene.mp4' },
 ]
 </script>
 

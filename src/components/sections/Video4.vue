@@ -8,11 +8,11 @@ const firstVideoMarginTop = ref(0)
 const pdfSource = '/video2/waymo_zero_shot.pdf';
 // 视频数据
 const videos = [
-  { img: '/video4/x_2_20_new.png', video: '/video4/output_2_20_scene_new.mp4' },
-    { img: '/video4/x_2_151_new.png', video: '/video4/output_2_151_scene_new.mp4' },
-      { img: '/video4/x_2_580_new.png', video: '/video4/output_2_580_scene_new.mp4' },
-        { img: '/video4/x3_180.png', video: '/video4/output_3_180_scene.mp4' },
-          { img: '/video4/x_0_280.png', video: '/video4/output_0_280_scene.mp4' },
+  { img: '/XYZCYlinder-projectpage/video4/x_2_20_new.png', video: '/XYZCYlinder-projectpage/video4/output_2_20_scene_new.mp4' },
+    { img: '/XYZCYlinder-projectpage/video4/x_2_151_new.png', video: '/XYZCYlinder-projectpage/video4/output_2_151_scene_new.mp4' },
+      { img: '/XYZCYlinder-projectpage/video4/x_2_580_new.png', video: '/XYZCYlinder-projectpage/video4/output_2_580_scene_new.mp4' },
+        { img: '/XYZCYlinder-projectpage/video4/x3_180.png', video: '/XYZCYlinder-projectpage/video4/output_3_180_scene.mp4' },
+          { img: '/XYZCYlinder-projectpage/video4/x_0_280.png', video: '/XYZCYlinder-projectpage/video4/output_0_280_scene.mp4' },
           // { img: '/video4/x_20_40.png', video: '/video4/output_20_40_scene.mp4' },
 ]
 </script>

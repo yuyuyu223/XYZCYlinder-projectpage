@@ -22,11 +22,11 @@ const videoPrompts = [
 
 // 实际视频文件路径
 const videoPaths = [
-  '/video/output_223_6_scene_magicdrivedit.mp4',
-  '/video/output_223_28_scene_magicdrivedit.mp4',
-  '/video/output_223_15_scene_magicdrivedit.mp4',
-  '/video/output_223_2_scene_magicdrivedit.mp4',
-  '/video/output_223_17_scene_magicdrivedit.mp4'  
+  '/XYZCYlinder-projectpage/video/output_223_6_scene_magicdrivedit.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_28_scene_magicdrivedit.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_15_scene_magicdrivedit.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_2_scene_magicdrivedit.mp4',
+  '/XYZCYlinder-projectpage/video/output_223_17_scene_magicdrivedit.mp4'  
 ];
 
 let selectedVideoPath = ref("");

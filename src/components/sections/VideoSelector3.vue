@@ -12,11 +12,11 @@ const videoButtonTexts = [
 
 // 实际视频文件路径
 const videoPaths = [
-  '/video/cyber.mp4',
-  '/video/autumn.mp4',
-  '/video/sakura.mp4',
-  '/video/desert.mp4',
-  '/video/snow.mp4',
+  '/XYZCYlinder-projectpage/video/cyber.mp4',
+  '/XYZCYlinder-projectpage/video/autumn.mp4',
+  '/XYZCYlinder-projectpage/video/sakura.mp4',
+  '/XYZCYlinder-projectpage/video/desert.mp4',
+  '/XYZCYlinder-projectpage/video/snow.mp4',
 ];
 
 let selectedVideoPath = ref("");
