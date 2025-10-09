@@ -28,8 +28,8 @@ const videos = [
     <el-row justify="center">
     <el-col :span="18">
         <p>
-          <!-- Argoverse数据集具有7个相机，捕获了360度环视场景，且相机本身参数与nuscenes并不一致，我们为该数据集提供了一套特有的UCP构建参数，以兼容我们的模型。 -->
-           For the Argoverse dataset, which features a 7-camera configuration, we also developed a customized UCP parameter set to address the inconsistencies in its camera parameters relative to nuScenes, thereby achieving model compatibility. We assess the zero-shot generalization of our model by deploying the nuScenes-trained model directly on the Argoverse dataset.
+          <!-- Argoverse数据集具有7个相机，捕获了360度环视场景，且相机本身参数与nuscenes并不一致，我们为该数据集提供了一套特有的UCCM构建参数，以兼容我们的模型。 -->
+           For the Argoverse dataset, which features a 7-camera configuration, we also developed a customized UCCM parameter set to address the inconsistencies in its camera parameters relative to nuScenes, thereby achieving model compatibility. We assess the zero-shot generalization of our model by deploying the nuScenes-trained model directly on the Argoverse dataset.
         </p>
       </el-col>
     </el-row>

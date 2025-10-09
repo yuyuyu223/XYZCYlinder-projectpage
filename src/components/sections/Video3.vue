@@ -28,8 +28,8 @@ const videos = [
     <el-row justify="center">
     <el-col :span="18">
         <p>
-          <!-- Pandaset数据集和Nuscenes相同，具有6个相机，捕获了360度环视场景，但是相机本身参数与nuscenes并不一致，我们为该数据集提供了一套特有的UCP构建参数，以兼容我们的模型。 -->
-     While PandaSet shares the 6-camera, 360° surround-view configuration of nuScenes, its intrinsic and extrinsic camera parameters are distinct. Consequently, we tailored a unique set of UCP parameters for PandaSet to ensure its compatibility with our model. We assess the zero-shot generalization of our model by deploying the nuScenes-trained model directly on the PandaSet dataset.
+          <!-- Pandaset数据集和Nuscenes相同，具有6个相机，捕获了360度环视场景，但是相机本身参数与nuscenes并不一致，我们为该数据集提供了一套特有的UCCM构建参数，以兼容我们的模型。 -->
+     While PandaSet shares the 6-camera, 360° surround-view configuration of nuScenes, its intrinsic and extrinsic camera parameters are distinct. Consequently, we tailored a unique set of UCCM parameters for PandaSet to ensure its compatibility with our model. We assess the zero-shot generalization of our model by deploying the nuScenes-trained model directly on the PandaSet dataset.
         </p>
       </el-col>
     </el-row>
