@@ -5,7 +5,7 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 import { ref, computed } from 'vue'
 
 // 匿名切换, true to be anonymous, false to be myself.
-const isAnonymous = ref(true);
+const isAnonymous = ref(false);
 
 // 个人主页
 const home = computed(() => {
@@ -16,8 +16,8 @@ const home = computed(() => {
         }
     } else {
         return {
-            name: "My Homepage",
-            link: "https://yuhang-cai.github.io/",
+            name: "3D Image Lab",
+            link: "http://www.3dimagelab.com/",
         }
     }
 })

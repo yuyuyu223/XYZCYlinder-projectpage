@@ -5,10 +5,10 @@ import { Document, Files, MagicStick, Picture, DataAnalysis, Film } from '@eleme
 import { ref, computed } from 'vue'
 
 // 匿名切换, true to be anonymous, false to be myself.
-const isAnonymous = ref(true);
+const isAnonymous = ref(false);
 
 // logo地址，没有则置为""即可
-const logo = '/logogif.gif'
+const logo = '/XYZCYlinder-projectpage/logogif.gif'
 
 // 标题
 // const title = 'XYZCylinder: A Unified Feedforward Reconstruction Model for Driving Scene Based on Cylindrical Feature Field Representation'
@@ -39,27 +39,39 @@ const authors = computed(() => {
         address_flag: "1"
       },
       {
+        name: "Qiankun Liu",
+        icon: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TNDbzzMAAAAJ&citpid=6",
+        homepage: "https://scholar.google.com/citations?user=TNDbzzMAAAAJ&hl=zh-CN",
+        address_flag: "1,*"
+      },
+      {
         name: "Hongyuan Liu",
-        icon: "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+        icon: "https://www.3dimagelab.com/wp-content/uploads/2024/01/刘洪源.jpg",
         homepage: "https://scholar.google.com/citations?user=Gt3-rnAAAAAJ&hl=zh-CN",
         address_flag: "1"
       },
       {
         name: "Jianfei Jiang",
-        icon: "https://scholar.google.com/citations/images/avatar_scholar_128.png",
-        homepage: "https://scholar.google.com/citations?user=bK_d01YAAAAJ&hl=zh-CN",
+        icon: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=bK_d01YAAAAJ&citpid=3",
+        homepage: "https://jianfeij.github.io/",
         address_flag: "1"
       },
       {
-        name: "Qiankun Liu",
-        icon: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TNDbzzMAAAAJ&citpid=6",
-        homepage: "https://scholar.google.com/citations?user=TNDbzzMAAAAJ&hl=zh-CN",
+        name: "Juntao Lyu",
+        icon: "/XYZCYlinder-projectpage/juntao_lyu.jpg",
+        homepage: "https://openreview.net/profile?id=~Juntao_Lyu1",
+        address_flag: "1"
+      },
+      {
+        name: "Jiansheng Chen",
+        icon: "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=A1gA9XIAAAAJ&citpid=5",
+        homepage: "https://scholar.google.com/citations?user=A1gA9XIAAAAJ&hl=zh-CN",
         address_flag: "1"
       },
       {
         name: "Huimin Ma",
-        icon: "https://scholar.google.com/citations/images/avatar_scholar_128.png",
-        homepage: "https://scholar.google.com/citations?user=32hwVLEAAAAJ&hl=zh-CN",
+        icon: "https://www.3dimagelab.com/wp-content/uploads/2024/11/cxk8b2c29FyAcDsWAAI-dhljbIw134-150x150.png",
+        homepage: "http://www.3dimagelab.com/index.php/huimin-ma/",
         address_flag: "1,*"
       },
     ]
@@ -94,7 +106,7 @@ const con_and_corresponding_author = computed(() => {
     if (isAnonymous.value) {
         return ""
     }
-    return "*: Corresponding Author."
+    return "*: Corresponding Authors."
 })
 
 
@@ -120,24 +132,26 @@ const buttons = [
   // },
   {
     disabled: false,
-    name: "Code",
-    // link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    name: "Code (coming soon)",
+    link: "https://github.com/yuyuyu223/XYZCylinder",
     component: Files,
   },
   {
     disabled: false,
     name: "Demo",
-    // link: "https://junyaohu.github.io/academic-project-page-template-vue",
+    link: "#",
     component: MagicStick,
   },
   {
     disabled: false,
     name: "Poster",
+    link: "#",
     component: Picture,
   },
   {
     disabled: false,
     name: "Slide",
+    link: "#",
     component: DataAnalysis,
   },
   // {
